@@ -1,0 +1,60 @@
+:root {
+    --primary: #FF6902;
+    --white-color: #fff;
+    --dark-bg:rgba(26,8,42,0.8);
+    --black-color:#000;
+    --height-header: 9rem;
+}
+
+* {
+    box-sizing: inherit;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    line-height: 1.6;
+    font-family: 'Zilla Slab', serif;
+    overflow-x: hidden;
+    
+}
+
+.grid {
+    display:block;
+    width: 100%;
+    margin:0;
+}
+
+.wide {
+    width: 1200px;
+    max-width: 100%;
+    margin:0 auto;
+}
+
+.row {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.active {
+    color:var(--primary);
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0);
+        transform-origin: center right;
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+        left:0%;
+        transform-origin: center left;
+    }
+}
