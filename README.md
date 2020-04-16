@@ -1,3 +1,3 @@
 # template__02
 portfolio
-link demo: nthanhtung9x.github.io/template__02
+link demo: http://nthanhtung9x.github.io/template__02
